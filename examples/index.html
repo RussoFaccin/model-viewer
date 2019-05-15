@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>3D Model Viewer - Example</title>
+  <!-- BabylonJS -->
+  <script src="https://cdn.babylonjs.com/babylon.js"></script>
+  <!-- GLTF Loader -->
+  <script src="https://cdn.babylonjs.com/loaders/babylon.glTF2FileLoader.min.js"></script>
+  <!-- Model-Viewer Web Component -->
+  <script src="../dist/model-viewer.min.js"></script>
+  <!-- Styles -->
+  <style>
+    model-viewer {
+      width: 400px;
+      height: 400px;
+    }
+  </style>
+</head>
+<body>
+    <model-viewer
+      src="https://googlewebcomponents.github.io/model-viewer/examples/assets/DamagedHelmet/DamagedHelmet.gltf"
+      camradius="3"
+      yoffset="-0.15"
+      bgcolor="#dbdbdb">
+    </model-viewer>
+</body>
+</html

@@ -1,0 +1,25 @@
+{
+  "name": "model-viewer",
+  "version": "1.0.0",
+  "description": "Web Component that embed 3D files to HTML pages usin BabylonJS",
+  "keywords": [
+    "Web component",
+    "3D",
+    "Model viewer",
+    "BabylonJS"
+  ],
+  "author": "Rodrigo Russo <bcontato@rodrigorusso.com.br> (http://rodrigorusso.com.br)",
+  "license": "ISC",
+  "scripts": {
+    "build": "gulp"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-preset-minify": "^0.5.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-rename": "^1.4.0"
+  },
+  "dependencies": {}
+}
