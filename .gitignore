@@ -3,6 +3,3 @@
 
 # Dependency directories
 node_modules/
-
-# Distribution folder
-dist/
